@@ -1,0 +1,367 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+nav{
+    width:100%;
+    height: 80px;
+    background-color: #6F6AF7;
+    top: 0%;
+    position: fixed;
+      
+}
+
+nav .leftsec{
+    width: 175px;
+    height: 36px;
+    top: 3px;
+    left: 50px;
+    position: fixed;
+}
+
+.leftsec h1{
+    font-family: Delius Unicase;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 78.81px;
+    text-align: left;
+    color: #FFFFFF;
+    cursor:pointer;
+}
+
+
+nav .rightsec{
+    width: 70%;
+    height: 55px;
+    top: 18px;
+    left: 460px;
+    position: fixed;
+    display: flex;
+}
+
+.rightsec .home{
+    font-family: DM Sans;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 47.43px;
+    color: #FFFFFF;
+    cursor:pointer;
+}
+
+.rightsec .about{
+    font-family: DM Sans;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 47.43px;
+    color: #FFFFFF;
+    margin-left: 60px;
+    width: 106px;
+    cursor:pointer;
+}
+
+.rightsec .info{
+    font-family: DM Sans;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 47.43px;
+    color: #FFFFFF;
+    margin-left: 60px;
+    cursor:pointer;
+}
+
+.rightsec .more{
+    font-family: DM Sans;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 47.43px;
+    color: #FFFFFF;
+    margin-left: 60px;
+    cursor:pointer;
+}
+
+.rightsec .sel{
+    border: none;
+    background-color: #6F6AF7 ;
+    color: #FFFFFF;
+}
+
+.rightsec img{
+    position: absolute;
+    left: 980px;
+    top: 6px;
+    width: 45px;
+    height: 30px;
+    cursor:pointer;
+}
+
+
+nav .search{
+    height: 38px;
+    width: 220px;
+    left: 1060px;
+    top: 22px;
+    position: absolute;
+    border-radius: 50px;
+    background-color:white;
+    cursor:pointer;
+}
+
+.search .ser{
+    border: none;
+    margin-left: 15px;
+    bottom: 5px;
+    height: 25px;
+    width: 165px;
+    position: absolute;
+    background: none;
+}
+
+.search ::placeholder{
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 350;
+
+}
+
+.search img{
+    margin-left: 185px;
+    margin-top: 9px;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+}
+
+/* <-----------------------------------------Main Page---------------------------------> */
+
+.page1{
+    width: 1200px;
+    height: 340px;
+    margin-top: 170px;
+    margin-left: 196px;
+    display: flex;
+}
+
+.page1 img{
+    width: 310px;
+    height: 340px;
+    box-shadow: 4px 7px 32px 0px #00000070;
+    border-radius: 20px 20px 20px 20px;
+}
+
+
+.box{
+    width: 750px;
+    height: 340px;
+    margin-left: 75px;
+    border-radius: 20px 20px 20px 20px;
+    border: 6px 0px 0px 0px;
+    background: #E5D8FF;
+    box-shadow: 3px 5px 27px 0px #00000040 inset;
+}
+
+.box p{
+    font-family: DM Sans;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 45px;
+    text-align: left;
+    color:#6F7373;
+    margin-left: 40px;
+    margin-top: 25px;
+}
+
+.sticky{
+    margin-top: 65px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 120px;
+    right: 20px;
+    float: right;
+}
+.sticky img{
+    height: 210px;
+    width: 75px;
+    cursor: pointer;
+}
+
+
+
+.boxs{
+    width: 1280px;
+    height: 100px;
+    margin-top: 60px;
+    margin-left: 150px;
+    /* background-color: blue; */
+    display: flex;
+}
+
+.box1{
+    width: 230px;
+    height: 100px;
+    margin-left: 10px;
+    border-radius: 11px 11px 11px 11px;
+    box-shadow: 0px 9px 31px 0px #00000066;
+
+}
+
+.box2, .box3, .box4{
+    width: 230px;
+    height: 100px;
+    margin-left: 100px;
+    border-radius: 11px 11px 11px 11px;
+    background-color:#0b0b10;
+    box-shadow: 0px 9px 31px 0px #00000066;
+
+}
+
+
+.boxT1, .boxT2,.boxT3,.boxT4{
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 13px;
+    margin-left: 25px;
+}
+
+
+.fixed{
+   position: fixed;
+   margin-top: 410px;
+   margin-left: 1340px;
+   float: right;
+}
+
+.fixed img{
+    width:130px;
+    height:130px ;
+    cursor: help;
+}
+
+
+   /* ---------------------------------------Page------------------------------------ */
+.page2{
+    width: 1230px;
+    height: 490px;
+    margin-top: 150px;
+    margin-left: 150px;
+    margin-bottom: 60px;
+    border-radius: 21px 21px 21px 21px;
+    opacity: 0px;
+    background-color:#483EFF;
+    display: flex;
+}
+
+.buttons{
+    width: 300px;
+    height: 430px;
+    margin-top: 28px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+.B2, .B3{
+    width: 300px;
+    height: 100px;
+    margin: 30px 0px 10px 0px;
+    background-color: #483EFF;
+    border: 3.5px solid white;
+    border-radius: 18px;
+    font-family: DM Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 62.54px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: white;
+    cursor:pointer;
+}
+
+
+.B1{
+    width: 300px;
+    height: 100px;
+    margin: 30px 0px 10px 0px;
+    background-color: #BCE0F6;
+    border: none;
+    box-shadow: 0px 6px 35px 0px #00000063;
+    border-radius: 18px;
+    font-family: DM Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 62.54px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color:black;
+    cursor:pointer;
+}
+
+
+.infobox{
+    width: 680px;
+    height: 430px;
+    margin-top: 28px;
+    margin-left: 500px;
+    position: relative;
+    background-color: #FFFFFF;
+    border-radius: 19px;
+}
+
+
+.infobox h1{
+    font-family: Inter;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 45.99px;
+    letter-spacing: 0.105em;
+    text-align: left;
+    margin-top: 48px;
+    margin-left: 50px;
+    color: #04285A;
+}
+
+.infobox ul{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0.08em;
+    text-align: left;
+    margin-top: 22px;
+    margin-left: 75px;
+    color: #04285A;
+
+}
+
+.infobox button{
+    width: 150px;
+    height: 55px;
+    margin-top: 43px;
+    margin-left: 480px;
+    background-color: black;
+    position: relative;
+    border: none;
+    color: white;
+    border-radius: 9px 9px 9px 9px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 370;
+    text-align: left;
+    padding-left: 30px;
+    line-height: 35.16px;
+    letter-spacing: 0.05em;
+    cursor:pointer;
+}
+
+.infobox img{
+    width: 28px;
+    height: 14px;
+    padding-left: 6px;
+}
